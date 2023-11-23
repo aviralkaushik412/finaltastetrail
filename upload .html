@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Upload Page</title>
+    <link rel="stylesheet" href="STYLES/upload .css">
+</head>
+<body>
+    <header>
+        <h1>Dish Upload Page</h1>
+    </header>
+
+    <section class="upload-form">
+        <h2>Upload Your Dish</h2>
+        <form enctype="multipart/form-data">
+            <label for="dish-photo">Upload Dish Photo:</label>
+            <input type="file" id="dish-photo" name="dish-photo" accept="image/*" required>
+            
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+            
+            <label for="recipe">Recipe:</label>
+            <textarea id="recipe" name="recipe" rows="8" required></textarea>
+            
+            <button type="submit">Upload</button>
+        </form>
+    </section>
+    
+    <section class="uploaded-dishes">
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Dish Upload Page</p>
+    </footer>
+</body>
+</html>

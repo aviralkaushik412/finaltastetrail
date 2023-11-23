@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing platform</title>
+    <link rel="stylesheet" href="STYLES/recipe sharing platfom.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style> .btn-text {text-align: right} ;</style>
+</head>
+
+<body>
+    <!--sidebar-->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <img src="IMAGES/recipe sharing logo.png" alt="logo">
+        </a>
+        <!--profilr photo-->
+        <div class="profile">
+            <div class="profile-img">
+                <img src="IMAGES/recipe profile photo.jpeg" alt="profile photo">
+            </div>
+            <div class="name">
+                <h1>The Jolly Chef</h1>
+            </div>
+            <span>@Chef</span>
+        </div>
+        <!--about-->
+
+        <div class="about">
+
+            
+            <div class="box">
+                <h3>1</h3>
+                <span>Posts</span>
+            </div>
+            
+            <div class="box">
+                <h3>24k</h3>
+                <span>Followers</span>
+            </div>
+            <!--Box3-->
+            <div class="box">
+                <h3>1,200</h3>
+                <span>Following</span>
+            </div>
+
+        </div>
+        <!--Menu-->
+        <div class="main">
+            <a href="#" class="active">
+                <span class=""icon>
+                    <i class="ri-function-line"></i>
+                </span>
+                Feed
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-search-line"></i>
+                </span>
+                Explore
+            </a>
+
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-notification-4-line"></i>
+                </span>
+                Notification
+            </a>
+
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-mail-unread-fill"></i>
+                </span>
+                messages
+            </a>
+
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-bar-chart-2-fill"></i>
+                </span>
+                Stats
+            </a>
+
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-settings-2-line"></i>
+                </span>
+                Settings
+            </a>
+
+            <a href="login page.html">
+                <span class="icon">
+                    <i class="ri-logout-box-r-line"></i>
+                </span>
+                Logout
+            </a>
+
+            
+        </div>
+        
+    
+    </div>
+    <!--Main home-->
+    <div class="main-home">
+        <div class="header">
+            <div class="search">
+                <i class="ri-search-2-line"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div id="recipeList">
+                <!-- Recipes will be displayed here -->
+              </div>
+            <div class="header-content">
+                <a href="#" id="mode-toggle"><i class="fas fa-moon"></i></a>
+                <script src="black.js"></script>
+                <i class="ri-notification-4-fill"></i>
+                <i class="ri-mail-unread-fill"></i>
+                <a href="upload .html" class="btn">
+                    <i class="ri-add-circle-fill"></i>
+                    <div class="btn-text">Add Photo</div>
+                </a>
+            </div>
+        </div>
+        <!--stories-->
+        <div class="stories-titile">
+            <h1>Followed</h1>
+        </div>
+        <!--Stories content-->
+        <div class="stories">
+            <!--followed 1-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 1 profile page .html" ><img src="IMAGES/chef 1.jpg" alt="story profile"></a>
+            </div>
+            <!--Followed 2-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 2 profile.html"><img src="IMAGES/chef 2.jpg" alt="story profile"></a>
+            </div>
+            <!--Followed 3-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 3 profile .html"><img src="IMAGES/chef 3.jpg" alt="story profile"></a>
+            </div>
+            <!--followed 4-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 4 profile .html"><img src="IMAGES/chef 4.jpg" alt="story profile"></a>
+            </div>
+            <!--followed 5-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 5 profile .html"><img src="IMAGES/chef 5.jpg" alt="story profile"></a>
+            </div>
+            <!--Followed 6-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 6 profile.html"><img src="IMAGES/chef 6.jpeg" alt="story profile"></a>
+            </div>
+            <!--Followed 7-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 7 profile .html"><img src="IMAGES/chef 7.jpeg" alt="story profile"></a>
+            </div>
+            <!--Followed 8-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 8 profile .html"><img src="IMAGES/chef 8.jpeg" alt="story profile"></a>
+            </div>
+            <!--Followed 9-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 9 profile .html"><img src="IMAGES/chef 9.jpeg" alt="story profile"></a>
+            </div>
+            <!--Followed 10-->
+            <div class="stories-img color">
+            <a href="CHEF PROFILES/chef 10 profile.html"><img src="IMAGES/chef 10.jpeg" alt="story profile"></a>
+            </div>
+        </div>
+        <!--main posts-->
+        <div class="feed">
+            <h1>Posts</h1>
+            <div class="feed-text">
+                <h2>Latest</h2>
+                
+            </div>
+        </div>
+        <!-- Postes-->
+        <div class="main-posts">
+            <!-- box 1-->
+            <div class="post-box">
+                <a href="recipe main/pizza recipe.html"><img src="
+IMAGES/pizza.png" alt="Pizza"></a>
+
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="
+        IMAGES/chef 4.jpg" alt="chef 2">
+                        </div>
+                        <h3>Mark</h3>
+                    </div>
+                    
+                    <div class="likes">
+                        <i class="ri-heart-line"></i>
+                        <span>10.4k</span>
+                        <i class="ri-chat-3-line"></i>
+                        <span>5089</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 2-->
+            <div class="post-box">
+                <a href="recipe main/burger recipe.html"><img src="
+IMAGES/burger.jpeg" alt="burger"></a>
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="
+        IMAGES/chef 6.jpeg" alt="chef 2">
+                        </div>
+                        <h3>Art Smith</h3>
+                    </div>
+                    <div class="likes">
+                        <i class="ri-heart-line"></i>
+                        <span>1.9k</span>
+                        <i class="ri-chat-3-line"></i>
+                        <span>87</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 3-->
+            <div class="post-box">
+                <a href="recipe main/pasta recipe.html"><img src="
+IMAGES/Pasta.png" alt="Pasta"></a>
+
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="
+        IMAGES/chef 3.jpg" alt="chef 3">
+                        </div>
+                        <h3>Amaury Guichon</h3>
+                    </div>
+                    <div class="likes">
+                        <i class="ri-heart-line"></i>
+                        <span>5.4k</span>
+                        <i class="ri-chat-3-line"></i>
+                        <span>156</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post-box">
+                <a href="recipe main/noodles.html"><img src="
+IMAGES/noodles.jpg" alt="Pizza"></a>
+
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="
+        IMAGES/chef 4.jpg" alt="chef 2">
+                        </div>
+                        <h3>Mark</h3>
+                    </div>
+                    <div class="likes">
+                        <i class="ri-heart-line"></i>
+                        <span>10.4k</span>
+                        <i class="ri-chat-3-line"></i>
+                        <span>5089</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 2-->
+            <div class="post-box">
+                <a href="recipe main/momo.html"><img src="
+IMAGES/momo.png" alt="burger"></a>
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="
+        IMAGES/chef 6.jpeg" alt="chef 2">
+                        </div>
+                        <h3>Art Smith</h3>
+                    </div>
+                    <div class="likes">
+                        <i class="ri-heart-line"></i>
+                        <span>1.9k</span>
+                        <i class="ri-chat-3-line"></i>
+                        <span>87</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 3-->
+            <div class="post-box">
+                <a href="recipe main/paneer.html">
+                    <img src="IMAGES/paneer.png" alt="Pasta">
+                </a>
+                
+
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="./IMAGES/chef 3.jpg" alt="chef 3">
+                        </div>
+                        <h3>Amaury Guichon</h3>
+                    </div>
+                    <div class="likes">
+                        <i class="ri-heart-line"></i>
+                        <span>5.4k</span>
+                        <i class="ri-chat-3-line"></i>
+                        <span>156</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+              <p>Contact us at: tastetrails.dev3@gmail.com</p>
+              <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/aviralkaushik0412/">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <!-- Add more social media links as needed -->
+              </ul>
+              <p>&copy; 2023 YourWebsiteName. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
