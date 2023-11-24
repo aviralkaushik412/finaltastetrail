@@ -18,8 +18,7 @@ hideMenuBtn.addEventListener("click", () =>  hamburgerBtn.click());
 showPopupBtn.addEventListener("click", () => {
     document.body.classList.toggle("show-popup");
 });
-
-
+ 
 hidePopupBtn.addEventListener("click", () => showPopupBtn.click());
 
 
