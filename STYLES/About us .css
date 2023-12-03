@@ -1,3 +1,7 @@
+body{
+    background-color: #2F3640;
+    color: white;
+}
 .myCard {
     background-color: transparent;
     width: 190px;
