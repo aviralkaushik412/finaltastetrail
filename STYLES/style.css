@@ -20,6 +20,8 @@ body{
     height: 100vh;
     /* background: #eeeded; */
     padding: 20px;
+    background-color: #2F3640;
+    color: white;
 }
 .main-home{
     position: absolute;
@@ -34,6 +36,20 @@ body{
 .logo img{
     width: 140px;
 
+}
+.posts1{
+    font-size: 2rem;
+    font-weight: 700;
+    height: 40px;
+    width: 100%;
+    /* background-color: rgb(236, 195, 195); */
+    margin-bottom: 20px;
+    border: 2px solid black;
+    /* border-radius: 30%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .profile{
@@ -95,7 +111,7 @@ body{
 .main a{
     width: 100%;
     font-size: 1rem;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     line-height: 40px;
@@ -239,6 +255,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     object-position: left;
+    border: 2px solid rgb(213, 88, 54);
 }
 .stories-img .add{
     position: absolute;
@@ -528,5 +545,152 @@ footer {
   .social-links li a {
     color: white;
     text-decoration: none;
+  }
+  
+
+
+
+  .buttonl {
+    display: flex;
+  }
+  
+  .boxl {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 113, 189);
+    overflow: hidden;
+  }
+  
+  .boxl:before {
+    content: "T";
+    position: absolute;
+    top: 0;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+  }
+  
+  .boxl:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'R';
+  }
+  
+  .boxl:nth-child(3)::before {
+    content: 'A';
+  }
+  
+  .boxl:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'I';
+  }
+  
+  .boxl:nth-child(5)::before {
+    content: 'L';
+  }
+  
+  .buttonl:hover .boxl:before {
+    transform: translateY(0);
+  }
+
+
+
+/* SEARCH CODE BELOW */
+
+
+  .searchBox {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #2f3640;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 23px;
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #FF71BD;/*var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%)); */
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    background-color: rgb(227, 76, 76);
+    box-shadow: rgba(104, 73, 73, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+  }
+  /*button pressing effect*/
+  button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    width: 800px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+  
+  
+
+
+
+
+  .food-item {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .food-item img {
+    width: 300px; /* Adjust the size as needed */
+    height: auto;
+    transition: filter 0.3s ease;
+  }
+  
+  .food-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .food-item:hover img {
+    filter: blur(5px); /* Adjust the blur effect */
+  }
+  
+  .food-item:hover .food-name {
+    display: block;
   }
   
