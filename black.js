@@ -61,4 +61,3 @@ const recipes = [
     const searchValue = event.target.value;
     displayFilteredRecipes(searchValue);
   });
-    
