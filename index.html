@@ -97,14 +97,203 @@
     
     </div>
     <!--Main home-->
-    <div class="main-home">
-        <!-- <div class="buttonl">
-            <div class="boxl">T</div>
-            <div class="boxl">A</div>
-            <div class="boxl">S</div>
-            <div class="boxl">T</div>
-            <div class="boxl">E</div>
-        </div> -->
+<div id="recipe-info" style="body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .dish-img{
+        /* background-color: cornflowerblue; */
+        height: 450px;
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        /* border: solid 5px rgb(6, 6, 6); */
+        position: absolute;
+        border-radius: 0px;
+        top: 100px;
+        left: 400px;
+        animation-name: animate2;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        /* animation-play-state: running; */
+        animation-delay: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: alternate; 
+    }
+    @keyframes animate2 {
+    from{
+        /* background-color: rgb(244, 135, 10); */
+        top: 100px;
+        left: 400px;
+        height: 450px;
+        width: 450px;
+        border-radius: 0px;
+    }
+    to{
+        /* background-color: rgb(115, 251, 94); */
+        top: 100px;
+        height: 200px;
+        width: 200px;
+        left: 60px;
+        font-size: 20px;
+        border-radius: 500px;
+    }
+}
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+    
+    /* .dish-img {
+        max-width: 100%;
+        height: auto;
+    } */
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #333;
+        color: #fff;
+    }
+    
+    .recipe {
+        margin-top: 20px;
+        line-height: 1.6;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: #fff;
+    } .btn-text {text-align: right} ;"> ingname
+        <div class="main-home" id="mainhome2" style="display: none;">
+            <div class="header">
+                <div class="search">
+                    <i class="ri-search-2-line"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="header-content">
+                    <i class="ri-notification-4-fill"></i>
+                    <i class="ri-mail-unread-fill"></i>
+                    <a href="#" class="btn">
+                        <i class="ri-add-circle-fill"></i>
+                        <div class="btn-text">Add Photo</div>
+                    </a>
+                </div>
+            </div>
+            <div class="bgr"><img src="../IMAGES/momo.png" alt="momos" class="dish-img"></div>
+            <div class="container">
+                <h2 id="logoforlist">Veg Momos</h2>
+                <table>
+                    <tr>
+                        <th>Ingredients</th>
+                    </tr>
+                    <tr>
+                        <td>1 sliced onion</td>
+                    </tr>
+                    <tr>
+                        <td>4 slices cheese slices</td>
+                    </tr>
+                    <tr>
+                        <td>1 teaspoon powdered garam masala powder</td>
+                    </tr>
+                    <tr>
+                        <td>2 teaspoon refined oil</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 gm ginger paste</td>
+                    </tr>
+                    <tr>
+                        <td>4 halved burger buns</td>
+                    </tr>
+                    <tr>
+                        <td>2 tablespoon tomato ketchup</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 teaspoon garlic paste</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 teaspoon garlic paste</td>
+                    </tr>
+                    <tr>
+                        <td>2 teaspoon powdered red chilli</td>
+                    </tr>
+                    <tr>
+                        <td>2 pinch powdered salt</td>
+                    </tr>
+                    <tr>
+                        <td>3 tablespoon breadcrumbs</td>
+                    </tr>
+                    <tr>
+                        <td>1 teaspoon lemon juice</td>
+                    </tr>
+                    <tr>
+                        <td>3 tablespoon butter</td>
+                    </tr>
+                    <tr>
+                        <td>1 handful chopped coriander leaves</td>
+                    </tr>
+                    <tr>
+                        <td>4 leaves lettuce loose-leaf</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 peeled,sliced cucumber</td>
+                    </tr>
+                    <tr>
+                        <td>2 chopped onion</td>
+                    </tr>
+                    <tr>
+                        <td>2 mashed,boiled,peeled potato</td>
+                    </tr>
+                    <tr>
+                        <td>2 chopped carrot</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 cup shelled peas</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 cup corn</td>
+                    </tr>
+                    
+                </table>
+                <h2>Recipe</h2>
+                <div class="recipe">
+                    <pre>Step 1 Pre</pre>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="main-home" id="mainhome1">
+
         <div class="header">
             <!-- <div class="search">
                 <i class="ri-search-2-line"></i>
@@ -112,8 +301,8 @@
             </div> -->
             <div class="searchBox">
 
-                <input class="searchInput" type="text" name="" placeholder="Search something">
-                <button class="searchButton" href="#">
+                <input id="searchInput" class="searchInput" type="text" name="" placeholder="Search something">
+                <button id="searchButton" class="searchButton" href="#">
                        
                       
     
@@ -137,8 +326,8 @@
         <clipPath id="clip0_2_17">
           <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
         </clipPath>
-      </defs>
-    </svg>
+        </defs>
+        </svg>
                          
     
                 </button>
@@ -217,148 +406,139 @@
         </div>
         <!-- Postes-->
         <div class="main-posts">
-            <!-- box 1-->
-            <div class="post-box">
-                <div class="food-item">
-                    <a href="recipe main/pizza recipe.html"><img src="IMAGES/pizza.png" alt="Pizza"></a> 
-                    <div class="food-name">Pizza</div>
-                </div>
-                <!-- <a href="recipe main/pizza recipe.html"><img src="IMAGES/pizza.png" alt="Pizza"></a>
-                <div class="food-name">Food Name</div> -->
 
-                <div class="post-info">
-                    <div class="post-profile">
-                        <div class="post-img">
-                            <img src="IMAGES/chef 4.jpg" alt="chef 2">
-                        </div>
-                        <h3>Mark</h3>
+
+
+
+
+
+            <div class="MAINNEWSBOX">
+                <div class="main-box-news">
+                    <div id="main-content">
+                        
                     </div>
+                    <template id="template-box">
+                        <!-- <div class="card">
+                            <div class="header" style="overflow: hidden;">    
+                                <img src="https://placehold.co/400x200" alt="NEWSIMAGE" id="news-img" class="news-img">
+                            </div> 
+                            <div class="card-content">
+                                <h2 id="news-title" style="font-family: 'Newsreader', serif; color: rgb(16, 80, 153);" class="news-title">THIS IS TITLE</h2>
+                                <h6  id="news-srcdt" class="news-srcdt" style="color: rgb(21, 40, 62);">DayDate </h6>
+                                <p id="znews-content" style="color: rgb(0, 0, 0);">RECIPE DESCRIPTION WILL BE SHOWN HERE</p>
+                                
+                            </div> 
+                            
+                        </div>   -->
+                        <div class="card">
+                            <div class="content">
+                              <div class="back">
+                                <div class="back-content">
+                                  <strong>
+                                    <div class="card">
+                                        <div class="header" style="overflow: hidden;">    
+                                            <img src="https://placehold.co/400x200" alt="NEWSIMAGE" id="news-img" class="news-img">
+                                        </div> 
+                                        <div class="card-content">
+                                            <h2 id="news-title" style="font-family: 'Newsreader', serif; color: rgb(16, 80, 153);" class="news-title">THIS IS TITLE</h2>
+                                            <h6  id="news-srcdt" class="news-srcdt" style="color: rgb(21, 40, 62);">DayDate </h6>
+                                            <p id="znews-content" style="color: rgb(0, 0, 0);">RECIPE DESCRIPTION WILL BE SHOWN HERE</p>
+                                            
+                                        </div> 
+                                                      <!-- <div id="cards-container"></div>
+                                                      <div id="info-box"></div> -->
+                          
+                                    </div>
+                                   </strong>
+                                </div>
+                              </div>
+                              <div class="front">
+                                
+                                <div class="img">
+                                  <div class="circle">
+                                  </div>
+                                  <div class="circle" id="right">
+                                  </div>
+                                  <div class="circle" id="bottom">
+                                  </div>
+                                </div>
+                          
+                                <div class="front-content">
+                                  <small class="badge" id="hovtitle">Pasta</small>
+                                  <div id="nutri">
+                                    <div style="display: flex; align-items: center;">
+                                        <div>Calories: </div>
+                                        <div id="cal">218.37</div>
+                                    </div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div>Carbs: </div>
+                                        <div id="carb">34.63</div>
+                                    </div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div>Fat: </div>
+                                        <div id="fat">5.95</div>
+                                    </div>
+                                    <div style="display: flex; align-items: center;">
+                                        <div>Protein: </div>
+                                        <div id="prot">3.71</div>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="description">
+                                    <div class="title">
+                                      <p class="title">
+                                        <strong id="titleofhover">Spaguetti Bolognese</strong>
+                                        <strong id="idofhover">Spaguetti Bolognese</strong>
+                                      </p>
+                                      <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero" fill="#20c997"><g transform="scale(8,8)"><path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path></g></g></svg>
+                                      
+                                    </div>
+                                    <p class="card-footer">
+                                      30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                                
                     
-                    <div class="likes">
-                        <i class="ri-heart-line"></i>
-                        <span>10.4k</span>
-                        <i class="ri-chat-3-line"></i>
-                        <span>5089</span>
-                    </div>
+                    </template>
                 </div>
+        
             </div>
+</div>
+            
+            
 
-            <!-- box 2-->
-            <div class="post-box">
-                <!-- <a href="recipe main/burger recipe.html"><img src="IMAGES/burger.jpeg" alt="burger"></a> -->
-                <div class="food-item">
-                    <a href="recipe main/pizza recipe.html"><img src="IMAGES/burger.jpeg" alt="Burger"></a> 
-                    <div class="food-name">Burger</div>
-                </div>
-                <div class="post-info">
-                    <div class="post-profile">
-                        <div class="post-img">
-                            <img src="IMAGES/chef 6.jpeg" alt="chef 2">
-                        </div>
-                        <h3>Art Smith</h3>
-                    </div>
-                    <div class="likes">
-                        <i class="ri-heart-line"></i>
-                        <span>1.9k</span>
-                        <i class="ri-chat-3-line"></i>
-                        <span>87</span>
-                    </div>
-                </div>
-            </div>
 
-            <!-- box 3-->
-            <div class="post-box">
-                <a href="recipe main/pasta recipe.html"><img src="IMAGES/Pasta.png" alt="Pasta"></a>
 
-                <div class="post-info">
-                    <div class="post-profile">
-                        <div class="post-img">
-                            <img src="IMAGES/chef 3.jpg" alt="chef 3">
-                        </div>
-                        <h3>Amaury Guichon</h3>
-                    </div>
-                    <div class="likes">
-                        <i class="ri-heart-line"></i>
-                        <span>5.4k</span>
-                        <i class="ri-chat-3-line"></i>
-                        <span>156</span>
-                    </div>
-                </div>
-            </div>
-            <div class="post-box">
-                <a href="recipe main/noodles.html"><img src="IMAGES/noodles.jpg" alt="Pizza"></a>
 
-                <div class="post-info">
-                    <div class="post-profile">
-                        <div class="post-img">
-                            <img src="IMAGES/chef 4.jpg" alt="chef 2">
-                        </div>
-                        <h3>Mark</h3>
-                    </div>
-                    <div class="likes">
-                        <i class="ri-heart-line"></i>
-                        <span>10.4k</span>
-                        <i class="ri-chat-3-line"></i>
-                        <span>5089</span>
-                    </div>
-                </div>
-            </div>
 
-            <!-- box 2-->
-            <div class="post-box">
-                <a href="recipe main/momo.html"><img src="IMAGES/momo.png" alt="burger"></a>
-                <div class="post-info">
-                    <div class="post-profile">
-                        <div class="post-img">
-                            <img src="IMAGES/chef 6.jpeg" alt="chef 2">
-                        </div>
-                        <h3>Art Smith</h3>
-                    </div>
-                    <div class="likes">
-                        <i class="ri-heart-line"></i>
-                        <span>1.9k</span>
-                        <i class="ri-chat-3-line"></i>
-                        <span>87</span>
-                    </div>
-                </div>
-            </div>
 
-            <!-- box 3-->
-            <div class="post-box">
-                <a href="recipe main/paneer.html">
-                    <img src="IMAGES/paneer.png" alt="Pasta">
-                </a>
-                
 
-                <div class="post-info">
-                    <div class="post-profile">
-                        <div class="post-img">
-                            <img src="./IMAGES/chef 3.jpg" alt="chef 3">
-                        </div>
-                        <h3>Amaury Guichon</h3>
-                    </div>
-                    <div class="likes">
-                        <i class="ri-heart-line"></i>
-                        <span>5.4k</span>
-                        <i class="ri-chat-3-line"></i>
-                        <span>156</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
+
+
+
+
+
+
+
+            <!-- box 1-->
+            
+        <!-- <footer>
             <div class="footer-content">
               <p>Contact us at: tastetrails.dev3@gmail.com</p>
               <ul class="social-links">
                 <li><a href="https://www.linkedin.com/in/aviralkaushik0412/">LinkedIn</a></li>
                 <li><a href="#">Twitter</a></li>
                 <li><a href="#">Instagram</a></li>
-                <!-- Add more social media links as needed -->
-              </ul>
+                 Add more social media links as needed -->
+              <!-- </ul>
               <p>&copy; 2023 TasteTrails. All rights reserved.</p>
             </div>
-        </footer>
-    </div>
+        </footer> --> 
+</div>
     <script src="index.js"></script>
 </body>
 </html>

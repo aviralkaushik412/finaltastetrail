@@ -1,133 +1,92 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="STYLES/About us .css">
-    </head>
-    <body>
-  
-
-    <!-- <a herf="home.html"><button class="button2">>>Go Back</button></a> -->
-    <center><a href="https://www.chitkara.edu.in"><img  class="img"   src="data:image/png;base64,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" style="margin-bottom: 0%;"</center></a><br>
-         <div><h2>Our Teams </h2></div>
-        <div class="d-flex justify-content-around">
-        <div class="myCard">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <p>Aviral</p>
-                    <p class="title"><img src="IMAGES/aviral.jpg" height="200px" width="160px"></p>
-                    
-                </div>
-                <div class="backSide">
-                    <p class="title"></p> 
-                <p>Aviral<br>
-                      ➼Chefs profile html & CSS
-                      ➼Java Script in login page and in home page
-                      ➼made project Filters
-                      ➼Helped in gathering recipe's and chefs's photos
-
-                    </p>          
-                    
-                </div>
-            </div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="STYLES/About us .css">
+  </head>
+  <body>
+    <div class="card">
+      <div class="content">
+        <div class="back">
+          <div class="back-content">
+            <strong>
+              <div class="card">
+                  <div class="header" style="overflow: hidden;">    
+                      <img src="	https://spoonacular.com/recipeImages/646524-312x231.jpg" alt="NEWSIMAGE" id="news-img" class="news-img">
+                  </div> 
+                  <div class="card-content">
+                      <h2 id="news-title" style="font-family: 'Newsreader', serif; color: rgb(16, 80, 153);" class="news-title">THIS IS TITLE</h2>
+                      <h6  id="news-srcdt" class="news-srcdt" style="color: rgb(21, 40, 62);">DayDate </h6>
+                      <p id="znews-content" style="color: rgb(0, 0, 0);">RECIPE DESCRIPTION WILL BE SHOWN HERE</p>
+                      
+                  </div> 
+                                <!-- <div id="cards-container"></div>
+                                <div id="info-box"></div> -->
+    
+              </div>
+             </strong>
+          </div>
         </div>
-        <div class="myCard">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <p>Ayush</p>
-                    <p class="title"><img src="IMAGES/ayush.jpg" height="200px" width="160px"></p>
-                    
-                </div>
-                <div class="backSide">
-                  <p>Ayush Sharma<br>
-                    ➼Login Page HTML and CSS
-                    ➼Home page HTML and CSS
-                    ➼helped in making ppt
-                    ➼Helped in gathering recipe's and chefs's photos
-                  </p>
-                </div>
+        <div class="front">
+          
+          <div class="img">
+            <div class="circle">
             </div>
-        </div>
-        
-       <div class="myCard">
-            <div class="innerCard">
-                <div class="frontSide">
-                    <p>Asmit</p>
-                    <p class="title"><img src="IMAGES/asmit.jpg" height="200px" width="160px"></p>
-                    
-                </div>
-                <div class="backSide">
-                    <p>Asmit<br>
-                        ➼Recipe page HTML and css
-                        ➼ Help in HTML,CSS,AND PICTURES
-                        ➼ Made PPT and helped in making abouts us page
-                        ➼Helped in gathering recipe's and chefs's photos
-                    </p>
-                </div>
+            <div class="circle" id="right">
             </div>
+            <div class="circle" id="bottom">
+            </div>
+          </div>
+    
+          <div class="front-content">
+            <small class="badge" id="hovtitle">Pasta</small>
+            <div id="nutri">
+              <div style="display: flex; align-items: center;">
+                  <div>Calories: </div>
+                  <div id="cal">218.37</div>
+              </div>
+              <div style="display: flex; align-items: center;">
+                  <div>Carbs: </div>
+                  <div id="carb">34.63</div>
+              </div>
+              <div style="display: flex; align-items: center;">
+                  <div>Fat: </div>
+                  <div id="fat">5.95</div>
+              </div>
+              <div style="display: flex; align-items: center;">
+                  <div>Protein: </div>
+                  <div id="prot">3.71</div>
+              </div>
+              
+            </div>
+            <div class="description">
+              <div class="title">
+                <p class="title">
+                  <strong id="titleofhover">Spaguetti Bolognese</strong>
+                </p>
+                <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero" fill="#20c997"><g transform="scale(8,8)"><path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path></g></g></svg>
+                
+              </div>
+              <p class="card-footer">
+                30 Mins &nbsp; | &nbsp; 1 Serving
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <h1>Follow us on </h1>
-<ul class="wrapper">
-
-    <li class="icon facebook">
-        <span class="tooltip">Facebook</span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-facebook" viewBox="0 0 16 16">
-          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-        </svg></a></span>
-    </li>
-    <li class="icon twitter">
-      <span class="tooltip">Twitter</span>
-      <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-twitter" viewBox="0 0 16 16">
-        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/>
-      </svg></span>
-  </li> 
-    <li class="icon instagram">
-      <span class="tooltip">Linkeden</span> 
-      <span><a href="https://www.linkedin.com/in/satyam-singla-61b1192a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  style="color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
-        </svg></a></span>
-    </li>
-    </li>
-    <li class="icon instagram">
-        <span class="tooltip">Instagram</span>
-        <span><a href="https://www.instagram.com/Ayush_sharma0_04/" style="color: black;" class="li"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-        </svg></a></span>
-    </li>
-  </ul>
-  <div class="d-flex justify-content-around" style="margin-top: 5%;">
-    <h1>Rate us </h1>
-    <div class="rating">
-      <input type="radio" id="star-1" name="star-radio" value="star-1">
-      <label for="star-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
-      </label>
-      <input type="radio" id="star-2" name="star-radio" value="star-1">
-      <label for="star-2">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
-      </label>
-      <input type="radio" id="star-3" name="star-radio" value="star-1">
-      <label for="star-3">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
-      </label>
-      <input type="radio" id="star-4" name="star-radio" value="star-1">
-      <label for="star-4">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
-      </label>
-      <input type="radio" id="star-5" name="star-radio" value="star-1">
-      <label for="star-5">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
-      </label>
-    </div>
-</center>
-<center>
-<p>Aviral , Ayush , Asmit</p><hr>
-<p>"Welcome to Taste Trails, Here you can share your recipes.<br> Inspired by Instagram<br></p>
-<p>We are 1st Year students of CSE at Chitkara University punjab</p>
-<p>We have created this Recipe Sharing website By using HTML , JS and CSS</p>
-<p>We are open for any kind of feedbacks and awards and We would also like to thank our teacher 
-  <br>Dr.Amandeep Kaur who helped us and motivated us into this.</p>
-
-</center>
-</body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <script src="" async defer></script>
+  </body>
 </html>
